@@ -128,3 +128,11 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+### Remix ###
+node_modules
+/.cache
+/build
+/public/build
+.env
+.DS_Store
