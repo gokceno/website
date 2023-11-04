@@ -20,7 +20,7 @@ import {
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
           <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet"></link>
           <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"></link>
-
+          <script defer data-domain="ogutcu.com" src="https://plausible.io/js/script.js"></script>
         </head>
         <body>
           <Outlet />
