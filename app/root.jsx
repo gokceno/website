@@ -8,8 +8,10 @@ import {
   import styles from "./css/main.css"
 
   export const links = () => [
-    { rel: "stylesheet", href: styles },
-  ];  
+    { rel: "stylesheet", href: styles }];  
+
+  export const meta = () => [{ title: "Gökçen Öğütçü" }];
+
   export default function App() {
     return (
       <html>

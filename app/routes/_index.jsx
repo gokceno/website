@@ -4,12 +4,12 @@ export default function Index() {
             <div className="container">
                 <div className="contents">
                     <div className="photograph-theme">
-                        <img src="/go.png" alt="" />
+                        <img src="/go.png" alt="Gökçen Öğütçü " />
                     </div>
                     <div className="contentsText">
-                        <p>Hi, I'm Gökçen, a creative <span>technologist with a deep curiosity</span> for innovation. I am passionate about exploring the evolving world of technology and crafting solutions that make a <span>difference.</span></p>
+                        <p>Hi, I'm Gökçen, a creative <span>technologist with a deep curiosity</span> for innovation. I am passionate about exploring the evolving world of technology and crafting solutions that <span>make a difference.</span></p>
                         
-                        <p id="thirdColor">I am an accomplished CTO adept at leading diverse teams and fostering innovation in technology companies. With a robust technical background, I specialize in crafting cutting-edge digital solutions. <br /><br />
+                        <p className="dark-third-color">I am an accomplished CTO adept at leading diverse teams and fostering innovation in technology companies. With a robust technical background, I specialize in crafting cutting-edge digital solutions. <br /><br />
                         
                         My unique perspective as a creative technologist enables me to blend technical precision with a keen eye for design, ensuring every project is both functional and visually compelling.
                         </p>
@@ -35,7 +35,7 @@ export default function Index() {
                             <a href="https://www.beforesunset.ai/" target="_blank" rel="noopener noreferrer">beforesunset.ai</a>
                         </div>
                         <div className="company-detail">
-                            <div className="company-title">Co-Founder</div>
+                            <div className="company-title">Co-Founder & CTO</div>
                             <div className="company-period">2022 - Present</div>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ export default function Index() {
                         </div>
                     </div>
 
-                    <div className="viewAll">
+                    <div className="view-all">
                         <a href="https://www.linkedin.com/in/gokcen-ogutcu/" target="_blank" rel="noopener noreferrer">View All</a>
                     </div>
                     
@@ -63,10 +63,7 @@ export default function Index() {
                         
                         <div className="information-mail">
                             <div className="top-text">
-                                <a href="mailto:gokcen@ogutcu.com">Let’s talk together</a> 
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24"  height="25" viewBox="0 0 24 25" fill="none">
-                                    <path d="M16.9497 17.4497L16.9497 7.55025L7.05025 7.55025M16.9497 7.55025L7.05025 17.4497" stroke="#FF2E00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
+                                <a href="mailto:low.zone7394@fastmail.com">Let's have a chat</a> 
                             </div>
                             <p>Send email</p>
                         </div>
@@ -78,15 +75,10 @@ export default function Index() {
 
                         <div className="information-github">
                             <a href="https://github.com/gokceno" target="_blank" rel="noopener noreferrer">gokceno</a>
-                            <p>Github</p>
+                            <p>GitHub</p>
                         </div>
-
-
-
                     </div>
-
                 </div>
-
             </div>
         </div>
     );
