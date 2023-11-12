@@ -6,7 +6,7 @@ export default function Index() {
           <div className="photograph">
             <img src="/go.png" alt="Gökçen Öğütçü" />
           </div>
-          <div className="contentsText">
+          <div className="contents-text">
             <p>
               Hi, I'm Gökçen, a creative{" "}
               <span>technologist with a deep curiosity</span> for innovation. I
@@ -14,13 +14,13 @@ export default function Index() {
               crafting solutions that <span>make a difference.</span>
             </p>
 
-            <div className="dark-third-color contentsTextDescription">
+            <div className="dark-third-color contents-text-description">
               I am an accomplished CTO adept at leading diverse teams and
               fostering innovation in technology companies. With a robust
               technical background, I specialize in crafting cutting-edge
               digital solutions.
             </div>
-              <div className="contentsTextDescription">   
+              <div className="contents-text-description">   
               My unique perspective as a creative technologist enables me to
               blend technical precision with a keen eye for design, ensuring
               every project is both functional and visually compelling.</div>

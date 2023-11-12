@@ -76,13 +76,13 @@ button:focus {
   user-select: none;
 }
 
-.contentsText {
+.contents-text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.contentsText p {
+.contents-text p {
   color: var(--accent-color);
   font-size: 32px;
   font-weight: 500;
@@ -90,14 +90,14 @@ button:focus {
   padding: 0px 47px 40px 0px;
 }
 
-.contentsText p span {
+.contents-text p span {
   font-size: 32px;
   font-weight: 500;
   line-height: normal;
   color: var(--second-color);
 }
 
-.contentsText .contentsTextDescription {
+.contents-text .contents-text-description {
   color: var(--accent-color);
   font-size: 18px;
   font-weight: 400;
@@ -269,12 +269,12 @@ button:focus {
     max-height: 164px;
   }
 
-  .contentsText p,
-  .contentsText p > span {
+  .contents-text p,
+  .contents-text p > span {
     font-size: 24px;
   }
 
-  .contentsText .contentsTextDescription {
+  .contents-text .contents-text-description {
     font-size: 14px;
     max-width: 277px;
   }
