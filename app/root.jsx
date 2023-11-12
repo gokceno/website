@@ -7,7 +7,10 @@ import {
   } from "@remix-run/react";
   import styles from "./css/main.css";
 
-  export const meta = () => [{ title: "Gökçen Öğütçü" }];
+  export const meta = () => [{ title: "Gökçen Öğütçü"},  {
+    name: "viewport",
+    content: "width=device-width,initial-scale=1",
+  }];
   export const links = () => [
     { rel: "stylesheet", href: styles },
     { rel: "preconnect", href: "https://fonts.googleapis.com" },

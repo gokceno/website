@@ -14,16 +14,16 @@ export default function Index() {
               crafting solutions that <span>make a difference.</span>
             </p>
 
-            <p className="dark-third-color">
+            <div className="dark-third-color contentsTextDescription">
               I am an accomplished CTO adept at leading diverse teams and
               fostering innovation in technology companies. With a robust
               technical background, I specialize in crafting cutting-edge
-              digital solutions. <br />
-              <br />
+              digital solutions.
+            </div>
+              <div className="contentsTextDescription">   
               My unique perspective as a creative technologist enables me to
               blend technical precision with a keen eye for design, ensuring
-              every project is both functional and visually compelling.
-            </p>
+              every project is both functional and visually compelling.</div>
           </div>
         </div>
 
