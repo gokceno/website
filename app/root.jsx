@@ -15,6 +15,7 @@ import {
     { rel: "stylesheet", href: styles },
     { rel: "preconnect", href: "https://fonts.googleapis.com" },
     { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" },
+    { rel:"icon", href: "/fav-icon.svg", type:"image/svg+xml"},
     {
       href:
         "https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&family=Space+Grotesk:wght@300;500;700&display=swap",
