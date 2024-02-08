@@ -73,7 +73,7 @@ export default function Index() {
               </a>
             </div>
             <div className="company-detail">
-              <div className="company-title">CTO</div>
+              <div className="company-title">Co-Founder & CTO</div>
               <div className="company-period">2009 - Present</div>
             </div>
           </div>
