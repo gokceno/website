@@ -29,7 +29,6 @@ import {
   ];  
   export const headers= () => ({
     "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
-    "Content-Security-Policy": "script-src 'self'",
     "X-Frame-Options": "DENY",
     "X-Content-Type-Options": "nosniff",
     "Referrer-Policy": "no-referrer, strict-origin-when-cross-origin",

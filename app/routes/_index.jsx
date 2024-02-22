@@ -1,4 +1,32 @@
+import { useEffect } from "react";
+
 export default function Index() {
+  function isNightTime() {
+    const now = new Date();
+    const hour = now.getHours();
+    console.log({hour});
+    return (hour >= 18 || hour < 6);
+  }
+  
+  function enableDarkMode() {
+    document.body.classList.add('dark');
+  }
+  
+  function disableDarkMode() {
+    document.body.classList.remove('dark');
+  }
+  
+  function controlDarkMode() {
+    if (isNightTime()) {
+      enableDarkMode(); 
+    } else {
+      disableDarkMode(); 
+    }
+  }
+  
+  useEffect(() => {
+    controlDarkMode();
+  }, []);
   return (
     <div className="frame">
       <div className="container">
