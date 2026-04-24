@@ -20,10 +20,11 @@ export default function Index() {
               technical background, I specialize in crafting cutting-edge
               digital solutions.
             </div>
-              <div className="contents-text-description">   
+            <div className="contents-text-description">
               My unique perspective as a creative technologist enables me to
               blend technical precision with a keen eye for design, ensuring
-              every project is both functional and visually compelling.</div>
+              every project is both functional and visually compelling.
+            </div>
           </div>
         </div>
 
@@ -69,7 +70,7 @@ export default function Index() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Brew Interactive
+                BREW
               </a>
             </div>
             <div className="company-detail">

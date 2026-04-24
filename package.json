@@ -13,9 +13,8 @@
   },
   "type": "module",
   "scripts": {
-    "dev": "remix dev -c \"node server.mjs\"",
+    "dev": "remix dev",
     "build": "remix build",
     "start": "remix-serve ./build/index.js"
   }
-
 }
